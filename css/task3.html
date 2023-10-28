@@ -8,16 +8,20 @@
 </head>
 <body>
     <div class="container">
-        <div class="form-container">
-            <form class="form">
-                <h1>Login</h1>
-                <label for="username">Username:</label>
-                <input type="text" id="username" name="username" required>
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required>
+        <div class="login-form">
+            <h1>Login</h1>
+            <form>
+                <div class="input-container">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="input-container">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
                 <button type="submit">Login</button>
             </form>
-            <p>Don't have an account? <a href="task3_register.html">Join now</a></p>
+            <a href="task3_register.html">register here</a>
         </div>
     </div>
 </body>
